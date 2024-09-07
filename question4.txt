@@ -1,0 +1,8 @@
+01 Predict the output:
+int fun(int n) {
+if (n <= 1) return 1;
+if (n % 2 == 0) return fun(n / 2);
+return fun(n / 2) + fun(n / 2 + 1);
+}
+
+Ans: The above function is the recursive way of implementing the Fibonacci sequence.
